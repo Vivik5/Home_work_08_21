@@ -1,3 +1,35 @@
+#Home Work №9
+#https://www.codewars.com/kata/sum-of-odd-numbers/train/python
+def row_sum_odd_numbers(n):
+    return n ** 3
+
+#https://www.codewars.com/kata/array-plus-array/train/python
+def array_plus_array(arr1,arr2):
+    pass
+    return sum(arr1) + sum(arr2)
+
+#https://www.codewars.com/kata/students-final-grade/train/python
+def final_grade(exam, projects):
+    if exam > 90 and projects >= 10:
+        return 100
+    if exam > 75 and projects >= 5:
+        return 90
+    if exam > 50 and projects >= 2:
+        return 75
+    else:
+        return 0
+
+
+#https://www.codewars.com/kata/beginner-series-number-3-sum-of-numbers/train/python
+def get_sum(a, b):
+    return sum(xrange(min(a,b), max(a,b)+1))
+
+
+#https://www.codewars.com/kata/beginner-series-number-4-cockroach/train/python
+def cockroach_speed(s):
+    return int(s * 27.7778)
+
+
 #Home Work №8
 #https://www.codewars.com/kata/57eae20f5500ad98e50002c5/train/python
 def no_space(x):

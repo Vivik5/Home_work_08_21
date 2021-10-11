@@ -128,3 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .idea
+
+#my key BS
+My_URL.py
+
+
+Selenium BrowserStack Cloud/
